@@ -461,7 +461,14 @@ li {
     line-height: 1.4;
     margin-bottom: 22px
 }
-
+.qr__code{
+    margin-left: 60%;
+    margin-top: -20%;
+   
+}
+.qr__code img{
+    width: 12rem;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .section-tittle h2 {
         font-size: 41px
@@ -509,14 +516,7 @@ li {
 
 }
 
-.qr__code{
-    margin-left: 60%;
-    margin-top: -20%;
-   
-}
-/* .qr__code img{
-    width: 10rem;
-} */
+
 
 .small-tittle h2 {
     font-size: 40px;
