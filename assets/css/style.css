@@ -959,6 +959,10 @@ li {
 .team-img__laddus{
     margin-top: 37%;
 }
+.team-img__1 img{
+    height: 10rem;
+    object-fit: cover;
+}
 
 .slider-area .hero-caption span {
     color: #DB4437;
