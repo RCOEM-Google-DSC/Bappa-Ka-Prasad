@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
 
-
+.navbar{
+    position:sticky;
+    top: 0;
+    z-index: 99;
+    /* justify-content: space-between; */
+}
 #imgDiv{
     width:15.625rem;
 }
@@ -8,6 +13,17 @@
 width: 100%;
 object-fit: contain;
 height: 100%;
+}
+
+prizes-lines{
+text-align:justify;
+}
+.prizes-lines-div{
+    /* text-align: center; */
+    width: 30%;
+    margin: 0 auto;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
 }
 
 
@@ -450,6 +466,9 @@ li {
     .section-tittle h2 {
         font-size: 41px
     }
+    .qr__code img{
+        width: 5rem;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -462,6 +481,9 @@ li {
     .section-tittle h2 {
         font-size: 31px
     }
+    .qr__code img{
+        width: 7rem;
+    }
 }
 
 @media (max-width: 575px) {
@@ -469,12 +491,32 @@ li {
         text-align: left;
         font-size: 24px
     }
+    .qr__code img{
+        width: 8rem;
+    }
+
+    
+}
+@media (max-width: 300px) {
+    .section-tittle h2 {
+        text-align: left;
+        font-size: 24px
+    }
+    .qr__code img{
+        width: 5rem;
+    }
+
+
 }
 
 .qr__code{
     margin-left: 60%;
     margin-top: -20%;
+   
 }
+/* .qr__code img{
+    width: 10rem;
+} */
 
 .small-tittle h2 {
     font-size: 40px;
@@ -3380,7 +3422,7 @@ sup,
 sub,
 u,
 del {
-    color: #1f2b7b
+    /* color: #1f2b7b */
 }
 
 .typography h1,
